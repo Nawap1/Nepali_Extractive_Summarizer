@@ -9,3 +9,9 @@ To extract the most salient and representative sentences from the input text, th
 The application's versatility lies in its ability to handle text data from diverse sources. Users can upload PDF files, which are processed using the PyMuPDF library to extract the text content. For image files, the application leverages the EasyOCR library, a state-of-the-art optical character recognition (OCR) engine, to extract textual information from the images. Additionally, users can directly input plain text for summarization.
 
 The Streamlit framework provides a user-friendly interface, allowing users to seamlessly interact with the application and view the summarized text alongside the original input. This project showcases the powerful combination of pre-trained language models, unsupervised learning techniques, and modern web technologies, enabling efficient and accurate text summarization for a wide range of applications.
+
+## Run Streamlit app
+To run the app simply paste the following code in your terminal.
+```py
+streamlit run .\Summarizer_App.py
+```
